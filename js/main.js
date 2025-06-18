@@ -52,7 +52,7 @@ const feedData = [
         reviews: 14,
         location: "Coimbra",
         category: "Computer Repair",
-        image: ../Img/3.png",
+        image: "../Img/3.png",
         avatar: "https://api.dicebear.com/7.x/adventurer/svg?seed=Sara",
         userReviews: [
             { name: "Tiago D.", comment: "Conhecimento profundo de PCs retro. Conseguiu reparar o meu ZX Spectrum!" },
