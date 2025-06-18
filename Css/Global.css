@@ -93,7 +93,6 @@ nav a:hover {
 }
 
 .header-btn:hover {
-  rotate: 360deg;
   color: var(--secundary-text);
 }
 
