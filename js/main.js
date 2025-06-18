@@ -8,7 +8,7 @@ const feedData = [
         reviews: 36,
         location: "Lisbon",
         category: "Baby Products",
-        image: "../Img/1.png",
+        image: "../../Img/1.png",
         avatar: "https://api.dicebear.com/7.x/adventurer/svg?seed=Laura",
         userReviews: [
             { name: "Mariana S", comment: "Adorei o carrinho, super confortável e seguro para o meu bebé!" },
