@@ -44,7 +44,7 @@
 }
 
 .left-panel {
-    background-color: var(--primary-color);
+  background: var(--gradient);
     padding: 40px;
     flex: 1;
     display: flex;
