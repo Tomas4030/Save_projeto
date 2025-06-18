@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HomePage - Bartrify</title>
+  <link rel="stylesheet" href="./Css/Global.css" />
+  <link rel="shortcut icon" href="./Img/favicon1.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <a href="./index.html">
+        <img src="./Img/Logo.png" />
+        <span class="Bartr">Bartr</span><span class="ify">ify</span>
+      </a>
+    </div>
+
+    <nav>
+      <a href="./Register.html">Sign In</a>
+      <button class="header-btn">Join Us</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>
+        <span class="word">Trade <span class="span-h1">Services.</span></span><br>
+        <span class="word delay">Build <span class="span-h1">Trust.</span></span>
+        <span class="word delay2">Solve <span class="span-h1">Problems.</span></span>
+      </h1>
+      <p>Discover your trusted platform for exchanging services and community collaboration.
+        Whether it's technical support, tutoring, home repairs or creative projects, connect with a community that
+        solves challenges and shares knowledge. Here, your talents make a difference, and you find the help you need.
+        Our mission is to build trust through transparency and mutual value. Join us and become part of a network where
+        your skills are valued and problems find practical solutions. Simple, safe and human, your new meeting point for
+        collaboration.
+      </p>
+      <div class="hero-buttons">
+        <a href="#content"><button class="outline">Explore More</button></a>
+        <button class="solid">Start Exchanging Now</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="./Img/Hero.png" alt="hero" />
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="content" id="content">
+    <div class="img-contend">
+      <img src="./Img/Img-content.png" alt="content" />
+    </div>
+    <div class="content-text">
+      <h2>How It Works?</h2>
+      <ul>
+        <li><i class="fa-solid fa-user-plus"></i> Create an account and set up your profile.</li>
+        <li><i class="fa-solid fa-magnifying-glass"></i> Browse available services and offers from other users.</li>
+        <li><i class="fa-solid fa-bullhorn"></i> Post your own services or items for trade.</li>
+        <li><i class="fa-solid fa-comments"></i> Connect with users to negotiate trades.</li>
+        <li><i class="fa-solid fa-handshake"></i> Complete trades and build your reputation.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="community-section">
+    <div class="community-text">
+      <h2>Join the community now!</h2>
+      <div class="step-text step-1">
+        <strong>347+</strong><br><span>Barters</span>
+      </div>
+      <div class="step-text step-2">
+        <strong>1.2M+</strong><br><span>Services</span>
+      </div>
+      <div class="step-text step-3">
+        <strong>500k</strong><br><span>Completed Services</span>
+      </div>
+    </div>
+    <div class="community-image">
+      <img src="./Img/community-image.png" alt="Community Illustration">
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <div class="wave-footer">
+  </div>
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-col">
+        <h3><i class="fa-solid fa-circle-info"></i> About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore
+          et dolore
+          magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3><i class="fa-solid fa-link"></i> Quick Links</h3>
+        <ul>
+          <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="./index.html"><i class="fa-solid fa-rss"></i> Feed</a></li>
+          <li><a href="./Register.html"><i class="fa-solid fa-user-plus"></i> Signup</a></li>
+          <li><a href="./Register.html"><i class="fa-solid fa-right-to-bracket"></i> Signin</a></li>
+          <li><a href="#"><i class="fa-solid fa-gauge-high"></i> Dashboard</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3><i class="fa-solid fa-shield-halved"></i> Privacy & Info</h3>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-file-contract"></i> Terms & Conditions</a></li>
+          <li><a href="#"><i class="fa-solid fa-user-shield"></i> Privacy Policy</a></li>
+          <li><a href="#"><i class="fa-solid fa-scale-balanced"></i> RGPD</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3><i class="fa-solid fa-address-book"></i> Contacts</h3>
+        <ul class="contacts">
+          <li><i class="fa-solid fa-location-dot"></i> @ETIC_Algarve, PT</li>
+          <li><i class="fa-solid fa-envelope"></i> example1@gmail.com</li>
+          <li><i class="fa-solid fa-envelope"></i> example2@gmail.com</li>
+          <li><i class="fa-solid fa-envelope"></i> example3@gmail.com</li>
+
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer-copy">
+      <i class="fa-regular fa-copyright"></i>
+      <span id="date"></span> Bartrify. All Rights Reserved.
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('date').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+
+</html>
