@@ -1,5 +1,5 @@
 /* Import da Pasta HomePage */
-@import url(../../HomePage/CSS/Global.css);
+@import url(./Global.css);
 
 /* ===== Flip Card + Form ===== */
 .Container {
