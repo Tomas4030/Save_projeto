@@ -1,14 +1,14 @@
 const feedData = [
     {
         name: "Laura Silva",
-        trade1: { title: "Baby Products", icon: "../Img/1.png" },
-        trade2: { title: "Eco Friendly", icon: "../Img/10.png" },
+        trade1: { title: "Baby Products", icon: "./../Img/1.png" },
+        trade2: { title: "Eco Friendly", icon: "./../Img/10.png" },
         description: "High-quality strollers and baby accessories. Comfort and safety first.",
         rating: 5,
         reviews: 36,
         location: "Lisbon",
         category: "Baby Products",
-        image: "../../Img/1.png",
+        image: "./../Img/1.png",
         avatar: "https://api.dicebear.com/7.x/adventurer/svg?seed=Laura",
         userReviews: [
             { name: "Mariana S", comment: "Adorei o carrinho, super confortável e seguro para o meu bebé!" },
